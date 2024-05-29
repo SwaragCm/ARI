@@ -28,3 +28,5 @@ Automated Readability Index assesses the U.S. grade level required to read a pie
 
  Finally , I just compare the score by using the conditions , and print the corresponding grade of that score. At first I received a syntax error says `invalid arithmetic operator` at last I found 
  out it was due to comparison operator being used with a floating-point number which is not supported here. To solve this i placed `bc (basic calculator)` .
+
+ After finished writing the source code , I tested the program with few text cases.
