@@ -4,29 +4,6 @@ Automated Readability Index assesses the U.S. grade level required to read a pie
  > 4.71 x (characters/words) + 0.5 x (words/sentences) – 21.43.
 
  # How I Solved !!
+At first, I find it a little challenging since I have never used shell scripting, but after reading the question and understanding it, I also went back and reviewed what Bala Sir had said, and started thinking about logics, and began to build the program step by step.
 
- I just set up a program to find the API score of a text using shell script.
- 
- First of all I've placed a shebang line `#!/bin/bash`
- which tells us our OS which interpreter to use when running the script.
-
- Then I've taken the text file as input from user , after that, I started thinking about the logics, and work out with that step by step.
-
- First I taken the count of characters using UNIX `wc -m` command.
-
- Next i taken the count of words by `wc - w` command.
-
- At last I took the sentences count, which is actually refered from ChatGPT. 
- 
- `sentences=$(grep -o '[.!?]' "$file" | wc -l)` 
-
- The working flow of this syntax is ,.grep will search text or files for lines that match a given pattern and -0 tells grep to output only the matched parts of the line, rather than the entire 
- line. Also used regular expression to match periods, question marks, and exclamation marks. `wc -l` command counts the number of lines in its input.
-
- 
- By finding all this, I went to calculate the ARI score using the formula mentioned above, and assigned that to a variable called "ARI".
-
- Finally , I just compare the score by using the conditions , and print the corresponding grade of that score. At first I received a syntax error says `invalid arithmetic operator` at last I found 
- out it was due to comparison operator being used with a floating-point number which is not supported here. To solve this i placed `bc (basic calculator)` .
-
- After finished writing the source code , I tested the program with few text cases.
+Since I feel pressured anytime, I am stuck, I took a few minutes break to clear my head. To be honest, there were times when I was extremely stuck and believed I couldn't solve this. but in the end everything will go as I wanted. I also took some help from google 
