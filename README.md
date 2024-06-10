@@ -8,4 +8,4 @@ At first, I find it a little challenging since I have never used shell scripting
 
 Since I feel pressured anytime, I am stuck, I took a few minutes break to clear my head. To be honest, there were times when I was extremely stuck and believed I couldn't solve this. but in the end everything will go as I wanted. I also took some help from google.
 
-The moment I got this question, I made up my mind to do it alone. I took this as a challenge. At first I felt completely blank and didn't know where to start
+The moment I got this question, I made up my mind to do it alone. I took this as a challenge. At first I felt completely blank and didn't know where to start, I even discussed that with my friends also, after a short conversation we started doing with our own logics
